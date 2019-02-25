@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-color: #00b0ff;
+    }
+</style>
+<ul>
+    <form action="/form.html" method="get">
+        <% admins.forEach(function(admin){ %>
+        <h1><%= admin %> <%= foo %></h1>
+        <button class="btn btn-dark btn-lg" type="submit"><%= bt %></button>
+        <% }); %>
+    </form>
+
+</ul>
+
+</html>

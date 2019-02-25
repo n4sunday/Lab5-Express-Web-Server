@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Adding Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-color: #00b0ff;
+        align-items: center;
+    }
+
+    form {
+        margin-top: 50px;
+        margin-left: 550px;
+        margin-right: 550px;
+    }
+    label {
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <div >
+        <form action="/admin" method="post">
+            <label >User :</label>
+            <input type="text" class="form-control" name="user" /><br />
+            <label >Password : </label>
+            <input type="password" class="form-control" name="pass" /><br></br>
+            <button class="btn btn-dark btn-lg" type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
